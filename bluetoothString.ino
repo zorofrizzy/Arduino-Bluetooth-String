@@ -19,6 +19,8 @@ void loop() {
     if (bt.available())
       { 
       input=bt.readString();
+      
+      //use input.trim() to compare with if statements.
     
     //Serial.println(input); 
     //Print character received on to the serial monitor
